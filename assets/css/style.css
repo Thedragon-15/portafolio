@@ -544,7 +544,7 @@ img {
 }
 
 .qualification__subtitle{
-    display :inline-block;
+    display : inline-block;
     font-size:var(--small-font-size);
     margin-bottom:var(--mb-1);
 }
@@ -562,19 +562,21 @@ img {
     border-radius: 50%;
 }
 
-.qualifcation__line{
+.qualification__line{
     display:block;
     width: 1px;
     height: 100%;
     background-color: var(--first-color);
     transform: translate(6px, -7px);
-
 }
 .qualification [data-content]{
-    display: none;
+    display : none;
 }
 
-.qualification__active [data-content]{
-    display: block;
+.qualification__active[data-content]{
+    display : block;
+}
+.qualification__button.qualification__active{
+  color : var(--first-color);
 }
 
