@@ -66,4 +66,7 @@ const skillsContent = document.getElementsByClassName('skills__content'),
             tab.classList.add('qualification__active')
         })
     })
+    /*=========== SERVICES MODAL =============*/ 
+const modalViews = document.querySelectorAll('.services__modal')
+
 
