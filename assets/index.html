@@ -4,12 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--================ UNICONS- ================= -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--================ SWIPER CSS- ================= -->
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+
+    <!--================ CSS- ================= -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>Responsive Portafolio Website</title>
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 
-<body></body>
+<body>
 
 
         <!-- ================= HEADER========================= -->
@@ -639,10 +645,10 @@
                      <h2 class="section__title">Portfolio</h2>
                      <span class="section__subtitle">Most recent work</span>
 
-                     <div class="class portfolio__container container">
-                         <div> -->
+                     <div class="portfolio__container container swiper mySwiper">
+                         <div class="swiper-wrapper"> 
   <!-- =========PORTAFOLIO 1==================   -->
-<div class="portfolio__content grid">
+<div class="portfolio__content grid swiper-slide">
     <img src="./img/imagenes.jpg" alt="" class="portfolio__img ">
 
     <div class="portfolio__data">
@@ -658,7 +664,7 @@
 </div>
 </div>
 <!-- =========PORTAFOLIO 2==================   -->
-<div class="portfolio__content grid">
+<div class="portfolio__content grid swiper-slide">
     <img src="./img/imagenes.jpg" alt="" class="portfolio__img ">
 
     <div class="portfolio__data">
@@ -674,7 +680,7 @@
 </div>
 </div>
   <!-- =========PORTAFOLIO 3==================   -->
-  <div class="portfolio__content grid">
+  <div class="portfolio__content grid swiper-slide">
     <img src="./img/imagenes.jpg" alt="" class="portfolio__img ">
 
     <div class="portfolio__data">
@@ -688,12 +694,22 @@
     </div>
 </div>
 </div>
+<!-- Swiper -->
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-pagination"></div>
 </div>
 </section>
 
 
             </main>
-        </body>
+            <!--================ FOOTER- ================= -->
+
+            <!--================ DCROLL TOP ================= -->
+
+        <!--================ SWIPER JS ================= -->
+<script src="../assets/js/main.js"></script>
+        <!--================ MAIN JS ================= -->
         <script src="../assets/js/main.js"></script>
     </body>
 </html>
