@@ -89,7 +89,7 @@ modalCloses.forEach((modalClose) => {
 
 /*=========== TESTIMONIAL =============*/
 
-      var swiper = new Swiper(".portfolio__container", {
+      var swiper = new Swiper("portfolio__content", {
         cssMode: true,
         navigation: {
           nextEl: ".swiper-button-next",
