@@ -101,7 +101,6 @@ modalCloses.forEach((modalClose) => {
           el: ".swiper-pagination",
           clickable: true,
         },
-        mousewheel: true,
-        keyboard: true,
+     
       });
 
