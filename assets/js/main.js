@@ -87,9 +87,9 @@ modalCloses.forEach((modalClose) => {
   });
 });
 
-/*=========== TESTIMONIAL =============*/
+/*=========== Portafolio=============*/
 
-      let swiper = new Swiper("portfolio__content", {
+      let swiperPortafolio = new Swiper("portfolio__content", {
         cssMode: true,
         loop: true,
          
@@ -101,6 +101,25 @@ modalCloses.forEach((modalClose) => {
           el: ".swiper-pagination",
           clickable: true,
         },
-     
+      
       });
+
+/*=========== TESTIMONIAL=============*/
+
+let swiperTestimonial = new Swiper("testimonial__content", {
+  loop: true,
+  grabCursor: true,
+  spaceBetween: 48,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  breakpoints: {
+    568: {
+      slidesPerView: 2,
+    },
+  },
+});
 

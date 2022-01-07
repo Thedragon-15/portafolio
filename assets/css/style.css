@@ -794,6 +794,9 @@ img {
 .testimonial_icon-start{
     color:var(--first-color)
 }
+.swiper-container .swiper-pagination-testimonial{
+    bottom: 0;
+}
 
 
 
