@@ -152,6 +152,7 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
+<<<<<<< HEAD
 
 // SHOW SCROLL UP
 function scrollUp(){
@@ -159,3 +160,8 @@ function scrollUp(){
   if(this.scrollY >=  560) scrollUp.classList.add('scroll-header'); else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
+=======
+// CODE PARA BACKGRAUND
+let Programado
+Programado = 1;
+>>>>>>> origin/master
