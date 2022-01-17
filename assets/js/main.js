@@ -147,3 +147,5 @@ window.addEventListener('scroll' , scrollActive)
  
 
 // CODE PARA BACKGRAUND
+let Programado
+Programado = 1;
