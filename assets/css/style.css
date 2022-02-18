@@ -313,6 +313,7 @@ box-shadow: 0 -1px 4px rgba(0,0,0,.15);
 .home__blob-img{
     width: 200px;
     display: grid;
+    border-radius: 2rem;
 
 }
 
@@ -333,9 +334,9 @@ box-shadow: 0 -1px 4px rgba(0,0,0,.15);
 .home__description{
     margin-bottom: var(--mb-2);
 }
-.home__scroll{
- display: name 
-} 
+/* .home__scroll{
+ /* display: ;
+}  */
 
 .home__scroll-button{
     color: var(--first-color);
@@ -344,7 +345,7 @@ box-shadow: 0 -1px 4px rgba(0,0,0,.15);
 }
 
 .home__scroll-button:hover{
-    transform: translateY(0.25rem);
+    transform: translateY(.25rem);
 
 }
 .home__scroll-mouse{
@@ -370,9 +371,9 @@ box-shadow: 0 -1px 4px rgba(0,0,0,.15);
     font-weight: var(--font-medium);
 }
 
-.button:hover{
+/* .button:hover{
     background-color : var(--first-color-alt);
-}
+} */
 
 .button__icon{
     font-size: 1.25rem;
