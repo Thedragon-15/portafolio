@@ -88,21 +88,19 @@ modalCloses.forEach((modalClose) => {
 });
 
 /*=========== Portafolio=============*/
+var swiper = new Swiper(".mySwiper", {
+  cssMode: true,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
 
-      let swiperPortafolio = new Swiper("portfolio__content", {
-        cssMode: true,
-        loop: true,
-         
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      
-      });
+
 
 /*=========== TESTIMONIAL=============*/
 
