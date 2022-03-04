@@ -735,8 +735,8 @@ box-shadow: 0 -1px 4px rgba(0,0,0,.15);
     padding: 0 1.5rem;
 }
 .portfolio__img{
-    width: 265px;
-    border-radius:  .5rem;
+    width: 350px;
+    border-radius:  .4rem;
     justify-self: center;
 }
 .portfolio__title{
