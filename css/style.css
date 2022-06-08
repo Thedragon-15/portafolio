@@ -1153,11 +1153,11 @@ box-shadow: 0 -1px 4px rgba(0,0,0,.15);
           }
 
           /* for large devices */
-          @media screen and (min-width: 1024){
+          @media screen and (min-width: 375px){
               .header,
               .main,
               .footer__container{
-                  padding: 0;
+                  padding: 205px;
               }
               .home__blob{
                   width: 320px;
@@ -1185,7 +1185,7 @@ box-shadow: 0 -1px 4px rgba(0,0,0,.15);
                 bottom:-4.5rem;
               }
               .contact__form{
-                  width: 460px;
+                  width: 360px;
               }
               .contact__inputs{
                   grid-template-columns: 2, 1fr;
