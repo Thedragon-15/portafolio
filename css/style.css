@@ -736,7 +736,7 @@ box-shadow: 0 -1px 4px rgba(0,0,0,.15);
 }
 .portfolio__img{
     width: 350px;
-    border-radius:  .4rem;
+    border-radius: 1rem;
     justify-self: center;
 }
 .portfolio__title{
@@ -940,58 +940,47 @@ box-shadow: 0 -1px 4px rgba(0,0,0,.15);
 }
 /* MEDIA QUERIES */
 /* For samll devies */
-
-@media screen and (max-width:350){
-    .container{
-        margin-left: var(--mb-1);
-        margin-right: var(--mb-1);
-    }
-    .nav__menu{
-        padding: 2rem .25rem 4rem;
-    }
-    .nav__list{
-        column-gap: 0;
-    }
-
-    .home__content{
-        grid-template-columns: .25fr 3fr
+@media screen and (min-width: 375px){
+    .header,
+    .main,
+    .footer__container{
+        padding: 205px;
     }
     .home__blob{
-        width: 100px;
+        width: 320px;
     }
-    .skills__title{
-        font-size: var(--normal-font-size);
+    .home__social{
+        transform: translateX(-6rem);
     }
 
-    .qualification__data{
-        gap: 5rem;
-    }
     .services__container{
-        grid-template-columns: max-content;
-        justify-content: center;
+        grid-template-columns: repeat(3, 238px);
     }
-    .services__content{
-        padding-right: 3.5rem;
+    .portafolio__content{
+        column-gap: 5rem;
     }
-    .services__modal{
-        padding: 0.5rem;
+    .swiper-portafolio-icon{
+      font-size: 3.5rem;
     }
-    .proyect__img{
-        width: 200px;
+    .swiper-buttom-prev{
+        left: -3.5rem;
     }
-    .testimonial__data,
-    .testimonial__header{
-        flex-direction: column;
-        align-items: center;
+    .swiper-button-next{
+        right: -3.5rem;
     }
-    .testimonial__img{
-        margin-right: var(--mb-0-25);
+    .swiper-container-horizontal > .swiper-pagination-bullets{
+      bottom:-4.5rem;
     }
-    .testimonial__data,
-    .testimonial__description{
-        text-align: center;
+    .contact__form{
+        width: 360px;
     }
+    .contact__inputs{
+        grid-template-columns: 2, 1fr;
+    }
+    
 }
+
+
 /* For medium devies */
  
 @media screen and (min-width: 560px){
@@ -1151,55 +1140,15 @@ box-shadow: 0 -1px 4px rgba(0,0,0,.15);
           .footer__copy{
               margin-top: 4.5rem;
           }
+        }
+    }
 
           /* for large devices */
-          @media screen and (min-width: 1024){
-              .header,
-              .main,
-              .footer__container{
-                  padding: 0;
-              }
-              .home__blob{
-                  width: 320px;
-              }
-              .home__social{
-                  transform: translateX(-6rem);
-              }
-
-              .services__container{
-                  grid-template-columns: repeat(3, 238px);
-              }
-              .portafolio__content{
-                  column-gap: 5rem;
-              }
-              .swiper-portafolio-icon{
-                font-size: 3.5rem;
-              }
-              .swiper-buttom-prev{
-                  left: -3.5rem;
-              }
-              .swiper-button-next{
-                  right: -3.5rem;
-              }
-              .swiper-container-horizontal > .swiper-pagination-bullets{
-                bottom:-4.5rem;
-              }
-              .contact__form{
-                  width: 460px;
-              }
-              .contact__inputs{
-                  grid-template-columns: 2, 1fr;
-              }
-              
-          }
+          
 
 
 
 
 
 
-
-         
-     }
-
-}
+      
